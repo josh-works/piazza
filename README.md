@@ -55,5 +55,7 @@ xcode-select --reset
 sudo xcode-select --reset
 ```
 
+And this finishes 3.1. On to Internationalization and Localization!
+
 
 
