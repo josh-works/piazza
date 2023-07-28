@@ -43,4 +43,17 @@ Listing 9. Model tests for name and email validation
 (test/models/user_test.rb)
 ```
 
-small progress, coffee shop is closing so I gotta bounce
+small progress, coffee shop is closing so I gotta bounce.
+
+# 7/28/23 
+
+humming along. Wrote specs for the user, validations. Ran into an xcode select issue, easily fixed with:
+
+```shell
+# https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-p#comment93175770_53089103
+xcode-select --reset
+sudo xcode-select --reset
+```
+
+
+
