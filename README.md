@@ -3,6 +3,12 @@
 
 working through https://railsandhotwirecodex.com/assets/the_rails_and_hotwire_codex_preview_v1_0_2.pdf
 
+the setup:
+
+```
+rails new piazza -j esbuild --css bulma -a propshaft -d postgresql
+```
+
 Just finished step 1.3.
 
 I've now set up the Render stuff, finishing up at https://dashboard.render.com/blueprint/new.
