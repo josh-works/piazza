@@ -63,5 +63,18 @@ sudo xcode-select --reset
 
 And this finishes 3.1. On to Internationalization and Localization!
 
+Had issues getting yarn and JS happy. Ended up doing:
 
+https://stackoverflow.com/questions/45237486/the-asset-application-js-is-not-present-in-the-asset-pipeline
+
+```
+# install esbuild, bulma
+  718  ./bin/rails javascript:install:esbuild
+  719  ./bin/rails css:install:bulma
+  721  bin/dev # threw errors about hotwired/stimulus, added it to yarn
+  722  yarn add @hotwired/stimulus 
+  723  bin/dev
+  724  yarn add @hotwired/turbo-rails
+  725  bin/dev
+  ``````
 
