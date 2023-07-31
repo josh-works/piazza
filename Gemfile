@@ -63,7 +63,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem "i18n-debug"
+
+  # gem "i18n-debug" toggle for debugging i18n sources
 end
 
 group :test do

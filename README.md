@@ -76,5 +76,25 @@ https://stackoverflow.com/questions/45237486/the-asset-application-js-is-not-pre
   723  bin/dev
   724  yarn add @hotwired/turbo-rails
   725  bin/dev
-  ``````
+  ```
+
+# 07-30-23
+
+Finished chapter three! One exercise to do now...
+
+> Add a password confirmation field to the sign up form.
+`has_secure_password` supports both a `password` and
+`password_confirmation` parameter input and compares the two
+before saving the record. This makes it trivial to add a password
+confirmation field. 
+> - [ ] Ensure a password mismatch error is shown to the
+user if their passwords don’t match. 
+> - [ ] Ensure you write a controller test for this as well.
+
+
+https://piazza-web-l9ml.onrender.com/sign_up
+
+eh, I give up. Couldn't make it work cleanly in the front-end, so not bothering adding it. I'll prob come back and update this at some point!
+
+Some notes here: https://gist.github.com/josh-works/c46f8a6d929d25cb4c59807b851f77bb
 
