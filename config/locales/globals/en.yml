@@ -2,3 +2,4 @@ en:
   piazza: Piazza
   sign_up: Sign Up
   welcome: Welcome
+  login_required: "You need to log in to view this page"
