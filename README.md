@@ -98,3 +98,9 @@ eh, I give up. Couldn't make it work cleanly in the front-end, so not bothering 
 
 Some notes here: https://gist.github.com/josh-works/c46f8a6d929d25cb4c59807b851f77bb
 
+Done through 4.2, on to:
+
+4.3. Tests, tests, tests
+
+
+

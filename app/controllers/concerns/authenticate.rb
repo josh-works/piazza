@@ -18,6 +18,7 @@ end
       skip_before_action :require_login, options
     end
   end
+  
   protected
 
     def log_in(app_session)
