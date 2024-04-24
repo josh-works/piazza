@@ -19,6 +19,12 @@ class SessionsController < ApplicationController
       render :new, status: :unprocessable_entity
     end
   end
+
+  def destroy
+    log_out
+    flash[:success] = t(".success")
+    redirect_to root_path, status: :see_other
+  end
   
   private 
 
